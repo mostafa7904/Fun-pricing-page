@@ -1,4 +1,7 @@
-# gif-pricing
+# A fun pricing page
+
+A fun pricing page with Gifs.
+
 
 ## Project setup
 ```
@@ -20,5 +23,4 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Made by Mostafa Rahmati ❤
