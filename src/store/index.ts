@@ -26,17 +26,15 @@ export default new Vuex.Store({
   },
   actions: {
     playOrStop({ commit, state }, gif) {
-      if (state.isPlaying) {
-        clearTimeout(state.timeout);
+      commit("setGif", gif);
+      clearTimeout(state.timeout);
+
+      const timout = setTimeout(() => {
         commit("stop");
-      } else {
-        commit("play");
-        commit("setGif", gif);
-        const timout = setTimeout(() => {
-          commit("stop");
-        }, gif.time);
-        commit("setTimeoutId", timout);
-      }
+      }, gif.time);
+      commit("setTimeoutId", timout);
+
+      commit("play");
     },
   },
   getters: {
