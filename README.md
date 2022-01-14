@@ -1,6 +1,7 @@
 # A fun pricing page
 
-A fun pricing page with Gifs.
+A fun pricing page with Gifs. 
+Made with typescript Vue and tailwindcss.
 
 
 ## Project setup
