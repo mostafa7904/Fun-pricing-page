@@ -5,6 +5,9 @@ A fun pricing page with Gifs 🎞🖼.
 Made with typescript Vue and tailwindcss.
 
 
+[Live demo](https://distracted-mayer-08c583.netlify.app/)
+
+
 ## Project setup 🚀
 ```
 npm install
