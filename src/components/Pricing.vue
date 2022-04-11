@@ -1,6 +1,6 @@
 <template>
   <div
-    class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 xl:mx-52 lg:mx-40 md:mx-32 sm:mx-24 mx-16 mt-12 sm:gap-8 gap-5"
+    class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 xl:mx-52 lg:mx-40 md:mx-32 sm:mx-24 mx-8 mt-12 sm:gap-8 gap-5"
   >
     <template v-for="(pricing, idx) in cards">
       <pricing-card :key="idx" :pricing="pricing" />

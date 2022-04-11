@@ -10,7 +10,7 @@
     </div>
     <footer class="footer">
       <a class="flex" href="https://github.com/mostafa7904/Fun-pricing-page">
-        Github
+        Source
         <i class="ml-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -50,37 +50,37 @@ export default Vue.extend({
   data: () => ({
     gifs: [
       {
-        url: "https://media0.giphy.com/media/3o6ZtakXco6ZX2T66I/giphy.gif?cid=ecf05e47i22lhtk2nkvvew1zhpceot00goamyrfv37q87rdz&rid=giphy.gif&ct=g",
+        url: "/img/gifs/spit.webp",
         time: 4000,
         implication: "YEAR",
       },
       {
-        url: "https://media4.giphy.com/media/5VKbvrjxpVJCM/giphy.gif?cid=ecf05e4771auoppozpi4s3dra1v8puybmhzgk46pts017m45&rid=giphy.gif&ct=g",
+        url: "/img/gifs/p&r.webp",
         time: 3000,
         implication: "YEAR",
       },
       {
-        url: "https://media3.giphy.com/media/WPozw7z6nUMrQ12Kc7/giphy.gif?cid=790b7611dc55c493e53270c0f544c8cf640d388652a050e4&rid=giphy.gif&ct=g",
+        url: "/img/gifs/friends.webp",
         time: 4000,
         implication: "YEAR",
       },
       {
-        url: "https://media1.giphy.com/media/vQqeT3AYg8S5O/giphy.gif?cid=ecf05e4710kdi2ncz9wyzrpi8ub6lm928y1mw388ba3g7z9b&rid=giphy.gif&ct=g",
+        url: "/img/gifs/owl.webp",
         time: 2500,
         implication: "YEAR",
       },
       {
-        url: "https://media1.giphy.com/media/8UGoOaR1lA1uaAN892/giphy.gif?cid=790b7611e8962ea66c946f8b5ac9266ec1664242dace7ca7&rid=giphy.gif&ct=g",
+        url: "/img/gifs/shaking-head.webp",
         time: 3000,
         implication: "MONTH",
       },
       {
-        url: "https://media1.giphy.com/media/pK6k4BNalmx44CQj3v/giphy.gif?cid=790b7611a9d69351c9d73aa423dc237ca64410e3c74fe6b1&rid=giphy.gif&ct=g",
+        url: "/img/gifs/office.webp",
         time: 2500,
         implication: "MONTH",
       },
       {
-        url: "https://media0.giphy.com/media/U4VXRfcY3zxTi/giphy.gif?cid=790b7611216681cfd4058f1c1ec28b78fd099903e5e381d9&rid=giphy.gif&ct=g",
+        url: "/img/gifs/mr-bean.webp",
         time: 3000,
         implication: "MONTH",
       },
@@ -123,6 +123,7 @@ export default Vue.extend({
 
 <style>
 .home {
+  position: relative;
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -130,7 +131,8 @@ export default Vue.extend({
 }
 .footer {
   position: absolute;
-  bottom: 10px;
+  top: 50px;
   left: 50%;
+  transform: translateX(-50%);
 }
 </style>
